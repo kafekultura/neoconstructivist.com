@@ -1,0 +1,17 @@
+%article.project__item
+  = link_to "#", class: "project__link" do
+    = image_tag "assets/images/biennale.jpg", class: "project__image"
+    .project__meta
+      %h1.project__title 
+        = lorem.words 3
+      %p.project__text 
+        = lorem.sentences 2
+    .project__description
+      .project__name 
+        = lorem.words 2
+      .project__detail 
+        = lorem.sentences 2 
+    %span.project__view View Project
+  .project__info
+    = lorem.sentences 4
+    

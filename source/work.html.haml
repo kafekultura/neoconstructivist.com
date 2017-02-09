@@ -1,0 +1,10 @@
+---
+title: Projects
+---
+.intro
+  %h1.intro__title Projects
+  %p.intro__text 
+    = lorem.sentences 3 
+%section.project
+  - 5.times do |project|
+    = partial "partials/project", locals: { project: project }
